@@ -2,3 +2,6 @@ data/
 train/
 train.zip
 .ipynb_checkpoints/
+*.zip
+aclImdb/
+glove.6B/
