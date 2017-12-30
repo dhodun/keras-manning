@@ -5,3 +5,5 @@ train.zip
 *.zip
 aclImdb/
 glove.6B/
+Downloads/
+*.pyc
