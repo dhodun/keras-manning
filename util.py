@@ -1,5 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from IPython.display import SVG
+from keras.utils.vis_utils import model_to_dot
+
 
 
 def print_curves(history):
@@ -50,9 +53,6 @@ def print_curves(history):
     plt.show()
     return
 
-from IPython.display import SVG
-from keras.utils.vis_utils import model_to_dot
-
 def plot_model_jupyter(model):
     SVG(model_to_dot(model).create(prog='dot', format='svg'))
-    return
+    
